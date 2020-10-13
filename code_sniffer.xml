@@ -1,0 +1,74 @@
+
+PHP CODE SNIFFER REPORT SUMMARY
+--------------------------------------------------------------------------------------------------
+FILE                                                                              ERRORS  WARNINGS
+--------------------------------------------------------------------------------------------------
+app/CFieldType.php                                                                8       0
+app/Client.php                                                                    10      0
+app/Email.php                                                                     8       0
+app/Field.php                                                                     17      0
+app/FieldBlock.php                                                                13      0
+app/Module.php                                                                    13      0
+app/User.php                                                                      6       0
+app/Console/Kernel.php                                                            16      0
+app/Exceptions/Handler.php                                                        20      0
+app/Http/Kernel.php                                                               12      0
+app/Http/Controllers/ClientsController.php                                        65      0
+app/Http/Controllers/Controller.php                                               2       0
+app/Http/Controllers/HomeController.php                                           9       0
+app/Http/Controllers/ModuleController.php                                         37      0
+app/Http/Controllers/Auth/ConfirmPasswordController.php                           14      0
+app/Http/Controllers/Auth/ForgotPasswordController.php                            10      0
+app/Http/Controllers/Auth/LoginController.php                                     22      0
+app/Http/Controllers/Auth/RegisterController.php                                  38      0
+app/Http/Controllers/Auth/ResetPasswordController.php                             10      0
+app/Http/Controllers/Auth/VerificationController.php                              14      0
+app/Http/Middleware/Authenticate.php                                              10      0
+app/Http/Middleware/CheckForMaintenanceMode.php                                   5       0
+app/Http/Middleware/EncryptCookies.php                                            5       0
+app/Http/Middleware/RedirectIfAuthenticated.php                                   16      0
+app/Http/Middleware/TrimStrings.php                                               3       0
+app/Http/Middleware/TrustHosts.php                                                6       0
+app/Http/Middleware/TrustProxies.php                                              4       0
+app/Http/Middleware/VerifyCsrfToken.php                                           5       0
+app/Providers/AppServiceProvider.php                                              11      0
+app/Providers/AuthServiceProvider.php                                             9       0
+app/Providers/BroadcastServiceProvider.php                                        7       0
+app/Providers/EventServiceProvider.php                                            8       0
+app/Providers/RouteServiceProvider.php                                            18      0
+database/factories/ClientFactory.php                                              18      0
+database/factories/EmailFactory.php                                               14      0
+database/factories/UserFactory.php                                                23      0
+database/migrations/2014_10_12_000000_create_users_table.php                      12      0
+database/migrations/2014_10_12_100000_create_password_resets_table.php            12      0
+database/migrations/2019_08_19_000000_create_failed_jobs_table.php                12      0
+database/migrations/2019_12_14_000001_create_personal_access_tokens_table.php     12      0
+database/migrations/2020_05_31_091219_create_clients_table.php                    12      0
+database/migrations/2020_06_04_115651_create_emails_table.php                     12      0
+database/migrations/2020_06_04_211949_create_fields_table.php                     13      0
+database/migrations/2020_06_04_212619_create_c_field_types_table.php              12      0
+database/migrations/2020_06_04_212747_create_field_blocks_table.php               14      0
+database/migrations/2020_06_08_132429_create_modules_table.php                    12      0
+database/seeds/CFieldTypesSeederTable.php                                         24      0
+database/seeds/ClientsSeederTable.php                                             6       0
+database/seeds/DatabaseSeeder.php                                                 9       0
+database/seeds/EmailsSeederTable.php                                              31      0
+database/seeds/FieldBlocksSeederTable.php                                         24      0
+database/seeds/FieldsSeederTable.php                                              69      0
+database/seeds/ModulesSeederTable.php                                             8       0
+database/seeds/UsersSeederTable.php                                               6       0
+routes/api.php                                                                    17      0
+routes/channels.php                                                               12      0
+routes/console.php                                                                12      0
+routes/web.php                                                                    8       0
+tests/CreatesApplication.php                                                      6       0
+tests/TestCase.php                                                                2       0
+tests/Feature/ExampleTest.php                                                     6       0
+tests/Unit/ExampleTest.php                                                        6       0
+--------------------------------------------------------------------------------------------------
+A TOTAL OF 875 ERRORS AND 0 WARNINGS WERE FOUND IN 62 FILES
+--------------------------------------------------------------------------------------------------
+PHPCBF CAN FIX 743 OF THESE SNIFF VIOLATIONS AUTOMATICALLY
+--------------------------------------------------------------------------------------------------
+
+
